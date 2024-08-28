@@ -1,6 +1,6 @@
 # Image Edge Detection 
 
-Sobel Operator is used for image edge detection. In the sequential version, we iterate on each pixel, whereas on the parallel version each thread corresponds to one pixel on the image. For every pixel, we get calculate the weightet sums $G_x$ and $G_y$, after applying the filters $S_x$ and $S_y$ respectfully, on the neighborhoud of a pixel $(x,y)$. The new pixel will be the norm of the vector $(Gx,Gy)$.
+Sobel Operator is used for image edge detection. In the sequential version, we iterate on each pixel, whereas on the parallel version each thread corresponds to one pixel on the image. For every pixel, we get calculate the weighted sums $G_x$ and $G_y$, after applying the filters $S_x$ and $S_y$ respectfully, on the neighborhoud of a pixel $(x,y)$. The new pixel will be the norm of the vector $(Gx,Gy)$.
 
 $$
 S_x = \begin{bmatrix}
