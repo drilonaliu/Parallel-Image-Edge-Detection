@@ -1,0 +1,2 @@
+# Parallel-Sobel-Operator
+ 
