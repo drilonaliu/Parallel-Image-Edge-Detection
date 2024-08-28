@@ -21,7 +21,7 @@ $$ G_x = \sum_{s=-1}^{1} \sum_{t=-1}^{1} S_x(s+1,t+1)*f(x+s,y+t) $$
 
 $$ G_y = \sum_{s=-1}^{1} \sum_{t=-1}^{1} S_y(s+1,t+1)*f(x+s,y+t) $$ 
 
-The new pixel at $(x,y)$ of the new image %g(x,y)$ is the Euclidian norm:
+The new pixel at $(x,y)$ of the new image $g(x,y)$ is the Euclidian norm:
 
 $$ g(x,y) = \lVert (G_x,G_y) \rVert = \sqrt{G_x^2 + G_y^2} $$
 
