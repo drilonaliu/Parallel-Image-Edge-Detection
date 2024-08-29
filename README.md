@@ -75,4 +75,5 @@ If we apply the sobel operator on the original Lena image, we will get the image
   <img src = "readMeImages/lena_edges.jpg">
 </div>
 
-
+## open cv 
+You can extract the open cv installer in the Common folder, and you won't be needing to import the libraries manually. Install open cv here: https://opencv.org/get-started/
